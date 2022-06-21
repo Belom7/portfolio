@@ -5,7 +5,7 @@ export const Avatar = () => {
     return (
         <div className={style.avatarContainer}>
             <div className={style.ttt}>
-                <img src="https://klike.net/uploads/posts/2020-04/1587719791_1.jpg" alt="avatar"/>
+                <img src="https://i.pinimg.com/736x/9f/ec/6f/9fec6f487ee2d5bf6495d42182ed0eef.jpg" alt="avatar"/>
             </div>
         </div>
     );

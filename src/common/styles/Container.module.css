@@ -5,8 +5,34 @@
     background-color: #383636;
     margin: 20px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
+
+.noLinkContainer {
+    flex-direction: column;
+    font-size: 35px;
+}
+
+.textIntro{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.spanOne {
+    color: white;
+}
+
+.spanTwo {
+    color: #045de3;
+}
+
+/*span {*/
+/*    display: inline-block;*/
+/*    width: ;*/
+/*    height: ;*/
+/*}*/
