@@ -1,3 +1,21 @@
-.App {
+/*.App {*/
 
+/*    display: grid;*/
+/*    grid-template-areas:*/
+/*        'a mc';*/
+/*    grid-template-rows: 100vh;*/
+/*    grid-template-columns: 3fr 7fr;*/
+/*}*/
+
+/*.App_Container{*/
+/*    margin: 0 auto;*/
+/*    height: 100%;*/
+/*    width: 80%;*/
+/*}*/
+
+
+.App {
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
 }

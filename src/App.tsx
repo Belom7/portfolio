@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import {Header} from "./components/header/Header";
-import {Main} from "./components/main/Main";
-import {Skills} from "./components/skils/Skills";
+import {Avatar} from "./components/avatar/Avatar";
+import {MainContent} from "./components/mainContent/MainContent";
 
 function App() {
     return (
         <div className="App">
-            <Header/>
-            <Main/>
-            <Skills/>
+                <Avatar/>
+                <MainContent/>
         </div>
     );
 }

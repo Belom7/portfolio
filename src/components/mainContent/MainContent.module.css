@@ -1,0 +1,6 @@
+.mainContent {
+    background-color: #484444;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
