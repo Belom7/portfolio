@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './MyPortfolio.module.css'
-import styleContainer from '../../../common/styles/Container.module.css'
+import styleContainer from '../../content/ContainerContent.module.css'
 
 export const MyPortfolio = () => {
     return (
