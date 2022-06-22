@@ -3,7 +3,7 @@ import style from './MainContent.module.css'
 import {LinkContent} from "./content/LinkContent";
 import {Content} from "./content/Content";
 import {Route, Routes} from "react-router-dom";
-import {AboutMe} from "./components/aboutMe/AboutMe";
+import {ContainerInfo} from "./components/ContainerInfo";
 
 export const MainContent = () => {
     return (
@@ -13,7 +13,7 @@ export const MainContent = () => {
             <LinkContent content1={'My'} content2={'Portfolio'} content3={'/1'}/>
             <LinkContent content1={'Get'} content2={'In Touch'} content3={'/2'}/>
             <Routes>
-                <Route path={'/AboutMe'} element={<AboutMe/>}/>
+                <Route path={'/AboutMe'} element={<ContainerInfo/>}/>
             </Routes>
         </div>
     );

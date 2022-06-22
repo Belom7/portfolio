@@ -1,0 +1,68 @@
+.containerInfo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 0;
+    bottom: 0;
+    width: 94.5%;
+    height: 95.4%;
+    background-color: #222;
+
+}
+
+
+.info {
+    border: 1px solid red;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.info .span {
+    font-size: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 110%;
+    color: white;
+}
+
+.spanTwo {
+    color: #045de3;
+}
+
+
+.containerIcon {
+    border: 1px solid red;
+
+
+}
+
+.containerIcon .trait {
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 1px solid #656c6d;
+    width: 25%;
+    flex-direction: row;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.button {
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+.button a {
+    font-size: 70px;
+    color: #5d5c5c;
+    text-decoration: none;
+}
