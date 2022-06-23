@@ -9,11 +9,13 @@ export const MainContent = () => {
     return (
         <div className={style.mainContent}>
             <Content content1={`HI THERE! I'M`} content2={'MAKSIM'} content3={'BAGAEV'} content4={'FRONTEND DEVELOPER'}/>
-            <LinkContent content1={'About'} content2={'Me'} content3={'/AboutMe'}/>
-            <LinkContent content1={'My'} content2={'Portfolio'} content3={'/1'}/>
-            <LinkContent content1={'Get'} content2={'In Touch'} content3={'/2'}/>
+            <LinkContent name1={'About'} name2={'Me'} link={'/AboutMe'}/>
+            <LinkContent name1={'My'} name2={'Portfolio'} link={'/MyPortfolio'}/>
+            <LinkContent name1={'Get'} name2={'In Touch'} link={'/GetInTouch'}/>
             <Routes>
-                <Route path={'/AboutMe'} element={<ContainerInfo/>}/>
+                <Route path={'/aboutMe'} element={<ContainerInfo name1={'about'} name2={'me'} value={1}/>}/>
+                <Route path={'/MyPortfolio'} element={<ContainerInfo name1={'My'} name2={'Portfolio'} value={2}/>}/>
+                <Route path={'/GetInTouch'} element={<ContainerInfo name1={'Get'} name2={'In Touch'} value={3}/>}/>
             </Routes>
         </div>
     );

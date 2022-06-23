@@ -1,9 +1,9 @@
 import React from 'react';
-import styleComponents from '../ContainerInfo.module.css'
+import style from './AboutMe.module.css'
 
 export const AboutMe = () => {
     return (
-        <div className={styleComponents.components}>
+        <div className={style.aboutMe}>
             <div>AboutMe</div>
 
         </div>

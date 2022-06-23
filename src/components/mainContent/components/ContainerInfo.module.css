@@ -4,15 +4,15 @@
     left: 20px;
     right: 0;
     bottom: 0;
-    width: 94.5%;
+    width: 92%;
     height: 95.4%;
     background-color: #222;
-
+    border: 1px solid gold; /*//////////////////*/
+padding: 20px;
 }
 
-
-.info {
-    border: 1px solid red;
+.header {
+    border: 1px solid red; /*//////////////////*/
     height: 200px;
     display: flex;
     justify-content: center;
@@ -21,35 +21,40 @@
     flex-direction: column;
 }
 
-.info .span {
+.header .span {
     font-size: 55px;
     font-weight: 900;
     text-transform: uppercase;
     line-height: 110%;
     color: white;
+    margin-bottom: 20px;
+    border: 1px solid white; /*//////////////////*/
 }
 
 .spanTwo {
     color: #045de3;
 }
 
-
 .containerIcon {
-    border: 1px solid red;
-
-
+    border: 1px solid yellow; /*//////////////////*/
+    width: 100%;
+    display: inline-block;
+    text-align: center;
 }
 
 .containerIcon .trait {
     display: inline-block;
     vertical-align: middle;
     border-bottom: 1px solid #656c6d;
-    width: 25%;
-    flex-direction: row;
+    width: 35%;
 }
-img{
+
+.containerIcon img {
+    margin: 0 20px;
+    border: 1px solid aqua;
     width: 30px;
     height: 30px;
+    color: white; /*//////////////////*/
 }
 
 

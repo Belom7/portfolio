@@ -3,17 +3,17 @@ import {NavLink} from 'react-router-dom';
 import style from './ContainerContent.module.css'
 
 type LinkContentPropsType = {
-    content1: string
-    content2: string
-    content3: string
+    name1: string
+    name2: string
+    link: string
 }
 
-export const LinkContent = ({content1, content2, content3}: LinkContentPropsType) => {
+export const LinkContent = ({name1, name2, link}: LinkContentPropsType) => {
     return (
         <div className={style.container}>
-            <NavLink to={content3}>
-                <span className={style.spanOne}>{content1}</span>
-                <span className={style.spanTwo}>{content2}</span>
+            <NavLink to={link}>
+                <span className={style.spanOne}>{name1}</span>
+                <span className={style.spanTwo}>{name2}</span>
             </NavLink>
         </div>
     );
