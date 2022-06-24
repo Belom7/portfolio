@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0438d59b.css",
-    "main.js": "/portfolio/static/js/main.b873f558.js",
+    "main.css": "/portfolio/static/css/main.5ef79595.css",
+    "main.js": "/portfolio/static/js/main.77b84b8f.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/103145091-identification-card-icon-id-profile-white-icon-with-shadow-on-transparent-background.webp": "/portfolio/static/media/103145091-identification-card-icon-id-profile-white-icon-with-shadow-on-transparent-background.3cf57eba6b2e4e544dca.webp",
     "index.html": "/portfolio/index.html",
-    "main.0438d59b.css.map": "/portfolio/static/css/main.0438d59b.css.map",
-    "main.b873f558.js.map": "/portfolio/static/js/main.b873f558.js.map",
+    "main.5ef79595.css.map": "/portfolio/static/css/main.5ef79595.css.map",
+    "main.77b84b8f.js.map": "/portfolio/static/js/main.77b84b8f.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0438d59b.css",
-    "static/js/main.b873f558.js"
+    "static/css/main.5ef79595.css",
+    "static/js/main.77b84b8f.js"
   ]
 }
